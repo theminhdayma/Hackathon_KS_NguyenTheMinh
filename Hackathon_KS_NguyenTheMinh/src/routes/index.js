@@ -8,6 +8,7 @@ const routes = [
     },
     {
         path: "/admin",
+        redirect: "/admin/dashboard",
         name: "admin",
         component: () => import( "../views/Admin.vue"),
         children: [
